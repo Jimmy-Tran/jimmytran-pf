@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body {
+  margin: 0;
+  font-family: 'Geist', sans-serif;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  margin-top: calc(.25rem * 10);
+}
+
+.profile-image__inner {
+  display: block;
+  position: relative;
+  height: 64px;
+  width: 64px;
+}
+
+.profile-image__photo {
+      border-radius: 8px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.profile-image {
+      position: absolute;
+    left: 0;
+    top: -50.86%;
+    height: 160%;
+    width: 100%;
+    max-width: none;
+}
+
+.about-heading__name {
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.about-heading__role {
+  color: #878787;
+  font-size: 0.875rem;
+  line-height: calc(1.25 / .875);
+  margin-top: 0;
+}
+
+.about-heading__description p {
+  color: #151515;
+  line-height: 1.25;
+  font-size: 0.875rem;
+}
