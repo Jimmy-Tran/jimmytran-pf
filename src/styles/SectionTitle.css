@@ -1,0 +1,19 @@
+.title__divider {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.title__divider h2 {
+    color: #707070;
+    font-weight: 550;
+    font-size: 0.75rem;
+    letter-spacing: 0.075em;
+    font-family: 'Geist', sans-serif;
+}
+
+.section-divider {
+    flex: 1;
+    height: 1px;
+    background: #e5e7eb;
+}

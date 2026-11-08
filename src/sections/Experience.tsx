@@ -1,13 +1,11 @@
 import Tractive from '../assets/0x0.png'
 import '../styles/Experience.css'
+import SectionTitle from '../ui/SectionTitle'
 
 export default function Experience() {
     return (
         <div className="experience">
-            <div className="experience__header">
-                <h2>EXPERIENCE</h2>
-                <div className="section-divider" />
-            </div>
+            <SectionTitle title="EXPERIENCE" />
             <div className="experience__item">
                 <img src={Tractive} alt="Company Logo" className="experience__logo" />
                 <div className="experience__details">

@@ -1,0 +1,19 @@
+
+.projects {
+  width: 100%;
+  max-width: 600px;
+}
+
+.projects__header {
+  margin-bottom: 24px;
+}
+
+.projects__header h2 {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.projects__list {
+  display: flex;
+  flex-direction: column;
+}

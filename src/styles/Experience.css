@@ -1,31 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-.experience h2 {
-    color: #707070;
-    font-weight: 550;
-    font-size: 0.75rem;
-    letter-spacing: 0.075em;
-    font-family: 'Geist', sans-serif;
-}
-
-.experience__header {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-}
-
-.section-divider {
-        flex: 1;
-    height: 1px;
-    background: #e5e7eb;
-}
 
 .experience__item {
     display: flex;
     flex-direction: row;
     gap: 2.5rem;
-    margin-bottom: 1rem;
     max-width: 750px;
+    margin-top: 1rem;
 }
 
 .experience__logo {
