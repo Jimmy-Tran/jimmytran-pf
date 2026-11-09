@@ -1,18 +1,23 @@
 .radial-blur {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 600px;
   height: 300px;
   pointer-events: none;
-  z-index: -1;
+  z-index: 0;
   overflow: visible;
   filter: blur(45px);
   opacity: 0.4;
-  position: absolute;
+  animation: radial-blur-glow 8s ease-in-out infinite;
+  transform-origin: center;
 }
 
 .radial-blur__orb {
   position: absolute;
   border-radius: 50%;
   mix-blend-mode: multiply;
+  animation: radial-blur-orb-glow 6s ease-in-out infinite;
 }
 
 .radial-blur__orb--blue {
@@ -37,6 +42,7 @@
   );
   left: 550px;
   top: 20px;
+  animation-delay: -2s;
 }
 
 .radial-blur__orb--pink {
@@ -49,4 +55,42 @@
   );
   left: 460px;
   top: 130px;
+  animation-delay: -4s;
+}
+
+@keyframes radial-blur-glow {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(0.98);
+  }
+
+  50% {
+    opacity: 0.55;
+    transform: scale(1.03);
+  }
+}
+
+@keyframes radial-blur-orb-glow {
+  0%, 100% {
+    opacity: 0.75;
+    transform: translate3d(0, 0, 0) scale(0.97);
+  }
+
+  50% {
+    opacity: 1;
+    transform: translate3d(-10px, 8px, 0) scale(1.04);
+  }
+}
+
+@media (max-width: 480px) {
+  .radial-blur {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .radial-blur,
+  .radial-blur__orb {
+    animation: none;
+  }
 }

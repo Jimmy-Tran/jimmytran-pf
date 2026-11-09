@@ -63,14 +63,6 @@
   white-space: nowrap;
 }
 
-@media (max-width: 480px) {
-  .footer {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-  }
-}
-
 @keyframes status-glow {
   0%, 100% {
     opacity: 0.2;
