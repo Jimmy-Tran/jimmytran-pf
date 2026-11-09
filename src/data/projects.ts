@@ -1,3 +1,9 @@
+import autoInzichtImage from "../assets/a-inzicht.png";
+import oldPortfolioImage from "../assets/old-portfolio.png";
+import caveroImage from "../assets/Cavero.png";
+import dutchArtImage from "../assets/DutchArtCollections.png";
+import minecraftImage from "../assets/minecraft-stats.png";
+
 export type Project = {
     title: string;
     description: string;
@@ -15,7 +21,7 @@ export const projects: Project[] = [
         company: "Personal Project",
         role: "Web Developer",
         date: "Currently in progress",
-        imageUrl: "/src/assets/a-inzicht.png",
+        imageUrl: autoInzichtImage,
         url: ""
     },
     {
@@ -24,16 +30,16 @@ export const projects: Project[] = [
         company: "Personal Project",
         role: "Web Developer",
         date: "2024",
-        imageUrl: "/src/assets/old-portfolio.png",
+        imageUrl: oldPortfolioImage,
         url: "https://gridportfolio-jimmy.vercel.app/"
     },
     {
         title: "Cavero - Event Planner Web Application",
         description: "Collaborated in a development team to build a social event calendar for Cavero. Focused primarily on developing the frontend using React and Tailwind CSS, integrating with a PHP API to retrieve and display events and encourage social interaction among employees.",
-        company: "Cavero", 
-         role: "Web Developer",
+        company: "Cavero",
+        role: "Web Developer",
         date: "2024",
-        imageUrl: "/src/assets/Cavero.png",
+        imageUrl: caveroImage,
         url: ""
     },
     {
@@ -42,7 +48,7 @@ export const projects: Project[] = [
         company: "DutchArtCollections",
         role: "Front-End Developer",
         date: "2023",
-        imageUrl: "/src/assets/DutchArtCollections.png",
+        imageUrl: dutchArtImage,
         url: ""
     },
     {
@@ -51,7 +57,7 @@ export const projects: Project[] = [
         company: "PrisonTech",
         role: "Web Developer",
         date: "2022",
-        imageUrl: "/src/assets/minecraft-stats.png",
+        imageUrl: minecraftImage,
         url: ""
     }
 ];
