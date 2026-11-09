@@ -25,7 +25,7 @@ export default function Hero() {
                       <div className="about-heading__links">
                         <a href="https://www.linkedin.com/in/jimmytrxn/" className="about-heading__link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                         <a href="https://github.com/Jimmy-Tran" className="about-heading__link" target="_blank" rel="noopener noreferrer">GitHub</a>
-                        <a href="/documents/JimmyTran-resume-26.pdf" className="about-heading__link" target="_blank" rel="noopener noreferrer">Resume</a>
+                        <a href="/documents/JimmyTran-Resume.pdf" className="about-heading__link" target="_blank" rel="noopener noreferrer">Resume</a>
                       </div>
                       </div>
                   </div>
