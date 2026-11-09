@@ -23,8 +23,8 @@ export default function Hero() {
                         I enjoy working closely with others, asking questions and paying attention to the details. Whether it's developing new features or improving existing ones, I focus on building software that is useful, intuitive and easy to use.
                       </p>
                       <div className="about-heading__links">
-                        <a href="" className="about-heading__link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                        <a href="" className="about-heading__link" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        <a href="https://www.linkedin.com/in/jimmytrxn/" className="about-heading__link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        <a href="https://github.com/Jimmy-Tran" className="about-heading__link" target="_blank" rel="noopener noreferrer">GitHub</a>
                         <a href="" className="about-heading__link" target="_blank" rel="noopener noreferrer">Resume</a>
                       </div>
                       </div>
