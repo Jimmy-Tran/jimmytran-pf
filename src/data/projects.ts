@@ -10,12 +10,39 @@ export type Project = {
 
 export const projects: Project[] = [
     {
-        title: "AutoInzicht",
-        description: "Description of Project 1",
-        company: "Company 1",
-        role: "Role 1",
-        date: "Date 1",
-        imageUrl: "",
+        title: "AutoInzicht - Vehicle Information Platform",
+        description: "Developing a vehicle information platform that allows users to look up Dutch license plates and explore detailed vehicle specifications, registration data and APK information using the RDW Open Data API.",
+        company: "Personal Project",
+        role: "Web Developer",
+        date: "Currently in progress",
+        imageUrl: "/src/assets/a-inzicht.png",
+        url: ""
+    },
+    {
+        title: "Cavero - Event Planner Web Application",
+        description: "Collaborated in a development team to build a social event calendar for Cavero. Focused primarily on developing the frontend using React and Tailwind CSS, integrating with a PHP API to retrieve and display events and encourage social interaction among employees.",
+        company: "Cavero", 
+         role: "Web Developer",
+        date: "2024",
+        imageUrl: "/src/assets/Cavero.png",
+        url: ""
+    },
+    {
+        title: "DutchArtCollections - Landing Page",
+        description: "Developed a landing website for a Web3-focused company specializing in blockchain solutions, digital art collections and decentralized applications, showcasing its services and vision for the decentralized economy.",
+        company: "DutchArtCollections",
+        role: "Front-End Developer",
+        date: "2023",
+        imageUrl: "/src/assets/DutchArtCollections.png",
+        url: ""
+    },
+    {
+        title: "PrisonTech - Minecraft Stats Dashboard",
+        description: "Built a statistics dashboard for a Minecraft prison server, connecting the frontend to a custom CraftBukkit API to fetch and display player statistics and server data.",
+        company: "PrisonTech",
+        role: "Web Developer",
+        date: "2022",
+        imageUrl: "/src/assets/minecraft-stats.png",
         url: ""
     }
 ];
