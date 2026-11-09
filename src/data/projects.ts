@@ -19,6 +19,15 @@ export const projects: Project[] = [
         url: ""
     },
     {
+        title: "Old Portfolio Website",
+        description: "Designed and developed a personal portfolio website to showcase my skills, projects, and experiences. Implemented responsive design principles to ensure optimal viewing across various devices.",
+        company: "Personal Project",
+        role: "Web Developer",
+        date: "2024",
+        imageUrl: "/src/assets/old-portfolio.png",
+        url: "https://gridportfolio-jimmy.vercel.app/"
+    },
+    {
         title: "Cavero - Event Planner Web Application",
         description: "Collaborated in a development team to build a social event calendar for Cavero. Focused primarily on developing the frontend using React and Tailwind CSS, integrating with a PHP API to retrieve and display events and encourage social interaction among employees.",
         company: "Cavero", 
